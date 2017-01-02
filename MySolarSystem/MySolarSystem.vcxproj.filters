@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{6113bcb8-25e5-4a1b-9c3f-a0b6d028bb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{7d7d65f6-15b0-4bb4-8804-13417209f28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderUtils">
+      <UniqueIdentifier>{783b3e3c-4ab1-45e0-ac24-2acbdb195443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4a96d1b4-dacc-4368-a3fe-9409271ac7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraUtils">
+      <UniqueIdentifier>{f44ec2b6-db75-4a30-8ee0-72ed36644aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightAndMaterialUtils">
+      <UniqueIdentifier>{2643ab32-4ce3-4e48-8356-53848e5a0d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textureUtils">
+      <UniqueIdentifier>{bceecc68-8c5c-403e-a5f3-83cb0aad9b93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myGLWindow.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="plante.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderReader.cpp">
+      <Filter>ShaderUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>CameraUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>LightAndMaterialUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>LightAndMaterialUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="textureReader.cpp">
+      <Filter>textureUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="CTargaImage.cpp">
+      <Filter>textureUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="arcBall.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myGLWindow.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="planet.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderReader.h">
+      <Filter>ShaderUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>CameraUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>LightAndMaterialUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>LightAndMaterialUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="textureReader.h">
+      <Filter>textureUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="CTargaImage.h">
+      <Filter>textureUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="arcBall.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="bloomFragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="planetGeoShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planetFragShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="orbitFragShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="passThroughVertShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planetVertShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planetTCSShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="planetTESShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿Build started 5/15/2015 10:56:42 AM.
+     1>Project "D:\MyEngine\Application ID GS00032942\MySolarSystem\MySolarSystem\MySolarSystem.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Temp\MySolarSystem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         MySolarSystem.vcxproj -> D:\MyEngine\Application ID GS00032942\MySolarSystem\Debug\MySolarSystem.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Temp\MySolarSystem.unsuccessfulbuild".
+         Touching "Debug\Temp\MySolarSystem.lastbuildstate".
+     1>Done Building Project "D:\MyEngine\Application ID GS00032942\MySolarSystem\MySolarSystem\MySolarSystem.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
